@@ -1,0 +1,374 @@
+body {
+    margin: 1px;
+    margin-top: 0;
+    border-top: 5px solid deepskyblue;
+    padding: 20px;
+    /*width: 1000px;*/
+}
+
+header {
+ height: 225px;
+ padding-top: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #333333;
+    font-family: "Georgia";
+}
+
+.title_box {
+    display:flex;
+    align-content: start;
+}
+
+.title_box_big {
+    margin-top:15px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height:36px;
+    color:#333333;
+    font-family: Georgia;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.title_box_small {
+    margin-top:0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    font-family: Georgia;
+    padding-top:20px;
+    opacity: 0.9;
+}
+.Search_form_container {
+    padding-top:25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.btn {
+    width: 68px;
+    height: 36px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #40aed7;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    font-size:12px;
+    line-height: 14px;
+    color:#ffffff;
+    font-family: "Georgia";
+    margin-left:5px;
+    cursor: pointer;
+}
+
+.btn:active {
+    animation-duration: 0.5s;
+    /*transform: translate(2px);*/
+    
+}
+
+.search {
+    width: 245px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    border:none;
+    font-size: 12px;
+    line-height: 14px;
+    color: #808080;
+    text-indent: 5%;
+    font-family: Georgia;
+}
+
+.top_nav_container {
+    display:flex;
+    flex-direction:row;
+}
+
+.title_box {
+    display:flex;
+    flex-direction:column;
+}
+
+.top_nav_boxes {
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: end;
+    justify-items: flex-end;
+    width: -moz-available;
+}
+
+.top_nav_css {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 13px;
+    color: #686868;
+    font-family: "Georgia";
+    display: inline-block;
+    margin: 0 10px;
+    width: 95px;
+    text-align:center;
+}
+
+.top_nav_css:hover {
+    color:#40aed7;
+    font-weight: bold;
+}
+
+.header_container{
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 25px;
+}
+
+.content {
+    display:flex;
+    flex-direction:column;
+}
+
+.content-main {
+    display:flex;
+    flex-direction:row;
+    padding-bottom:50px;
+}
+
+.content-second {
+    display:flex;
+    flex-direction:column;
+}
+.content-second-title {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-main-image {
+    display:flex;
+    width: 715px;
+    height: 400px;
+    margin-right: 5px;
+}
+
+.content-main-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content-title {
+    align-items: center;
+    padding:0px 30px;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Georgia";
+    text-align: center;
+}
+
+.title-small {
+    font-size: 18px;
+    line-height: 18px;
+    color:#333333;
+    font-family: "Georgia";
+    text-align: center;
+    margin-top:20px;
+}
+
+.content-main-text-t {
+    width:163px;
+    height:49px;
+    font-size:12px;
+    line-height: 17px;
+    color: #979797;
+    font-family: "Georgia";
+    text-align:center;
+}
+
+.content-second-pictures {
+    margin-top:50px;
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom:15px;
+    height: 690px;
+    justify-content: space-around;
+
+}
+
+
+.content-second-pictures-p {
+    height:210px;
+    width: 300px;
+}
+
+.content-second-pictures-boxes {
+    display:flex;
+    justify-content: space-around;
+    width:1300px;
+}
+
+.content-second-bottom-button {
+    width: 332px;
+    height: 45px;
+    border-radius:11px;
+    background-color: #40aed7;
+    font-size: 22px;
+    line-height:26px;
+    color:#ffffff;
+    font-family: "Georgia";
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+    cursor: pointer;
+}
+
+.content-second-bottom {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+footer {
+    border-top: 1px solid #a4a4a4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:270px;
+    background-color:rgb(27,27,27);
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:34px;
+}
+
+.footer-tag {
+    font-size: 16px;
+    line-height: 19px;
+    color:#ffffff;
+    font-family: "Georgia";
+}
+
+.footer-box {
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.footer-box-item {
+    display:flex;
+    padding-bottom:33px;
+
+}
+
+.social-image {
+    flex-direction:row;
+    align-content: space-between;
+}
+
+.footer-down {
+    display:flex;
+
+    height:76px;
+    background-color: rgb(22,22,22);
+}
+
+.footer-down-left {
+    display:flex;
+
+}
+
+.margin-footer {
+    margin: 25px 0px;
+}
+
+.footer-text {
+    font-size: 13px;
+    line-height: 21px;
+    color:#979797;
+    font-family:"Georgia";
+    display: flex;
+}
+
+.footer-text-blue {
+    font-size: 13px;
+    line-height: 18px;
+    color: #40aed7;
+    font-family: "Georgia";
+    display: flex;
+}
+
+.footer-image {
+    width:45px;
+    height:45px;
+    box-shadow:0 0 3px;
+    rgba(0,0,0,0.35);
+    background-color: #263e6f;
+    display: flex;
+}
+
+.subscribe__input {
+    width:180px;
+    height:31px;
+    border-radius:7px;
+    background-color: #1b1b1b;
+    font-size: 13px;
+    line-height: 16px;
+    color:#989898;
+    font-family:"Georgia";
+    display: flex;
+    text-decoration: none;
+    text-indent: 5%;
+    border: 1px solid #161616;
+}
+
+.subscribe__button {
+    display: flex;
+    width:40px;
+    height:34px;
+    border-radius:7px;
+    background-color: #1b1b1b;
+    font-size: 13px;
+    line-height:17px;
+    color:#40aed7;
+    font-family:"Georgia";
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #161616;
+    text-align: center;
+}
+
+.subscribe-padding {
+    margin: 0px 20px 0px 0px;
+}
+
+.footer-direction {
+    flex-direction: column;
+}
+
+.content-main-height{
+    height: 100px;
+    display:flex;
+    margin:0px 0px 5px 0px;
+}
+
+.btn-big {
+    width: 186px;
+    height: 45px;
+    border-radius: 11px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.content-main-paragraph {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:65px;
+}
